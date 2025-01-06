@@ -4,7 +4,7 @@
 
 Tic-Tac-Toe Game
 
-A modern and visually appealing Tic-Tac-Toe game built using HTML, CSS, and JavaScript. Play against the CPU and enjoy an interactive gaming experience.
+A modern and visually appealing Tic-Tac-Toe game built using HTML, CSS, and JavaScript. Play against your friend and enjoy an interactive gaming experience.
 
 
 ---
@@ -15,7 +15,7 @@ Dynamic Turn Indicator: Displays whose turn it is (X or O).
 
 Scoring System: Tracks:
 
-Wins for both X (You) and O (CPU).
+Wins for both X (You) and O (FRIEND).
 
 Tie games.
 

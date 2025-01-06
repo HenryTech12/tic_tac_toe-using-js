@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=reset_shadow" />
+</head>
+
+<body>
+  <!-- Project -->
+  <main class="container">
+    <div class="win-popup" id="popup">
+       <label id="winl">you won</label>
+       <section>
+         <span id="winner"></span>
+       </section>
+       <section class="action-btn">
+         <button onclick="resetAll()">quit</button>
+         <button onclick="resetButtons()">next round</button>
+       </section>
+    </div>
+    <div class="win-line" id="win-line"></div>
+   
+    <div class="btns">
+      <div class="header">
+        <section class="users">
+            <span data-value="X">X</span>
+            <span data-value="O">O</span>
+         </section>
+         <section class="currentPlayer" id="turn">
+              X Turn
+         </section>
+         <section class="reset">
+            <button class="rbtn" onclick="resetButtons()">
+              <i class="material-symbols-outlined">reset_shadow</i>
+           </button>
+          </section>
+       </div>
+      <button class="buttons brow1"></button>
+      <button class="buttons brow1"></button>
+      <button class="buttons brow1"></button>
+      
+      <button class="buttons brow2"></button>
+      <button class="buttons brow2"></button>
+      <button class="buttons brow2"></button>
+      
+      <button class="buttons brow3"></button>
+      <button class="buttons brow3"></button>
+      <button class="buttons brow3"></button>
+      
+     <section class="result">
+       <button class="playerBtn">
+           <span class="result-label"> X(YOU)</span>
+           <span class="userresult" id="score1">0</span>
+       </button>
+       <button class="tieBtn">
+           <span class="result-label"> TIE</span>
+            <span class="player-result" id="tie">0</span>
+       </button>
+       <button class="compBtn">
+           <span class="result-label"> O(CPU)</span>
+            <span class="player-result" id="score2">0</span>
+       </button>
+     </section>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
